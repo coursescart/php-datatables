@@ -9,7 +9,7 @@ class Ajax
 		    'host' => 'localhost',
 		    'username' => 'root', 
 		    'password' => '',
-		    'db'=> 'jagjit_datatables',
+		    'db'=> 'datatables',
 		    'port' => 3306,
 		    'prefix' => '',
 		    'charset' => 'utf8'
