@@ -146,10 +146,12 @@ class JsDataTables
 	}
 
 	public function getData($sql,$type = 'array'){
-		// $bt = debug_backtrace();
-		// $caller = array_shift($bt);
-
+	/* For Inner debug
+	$bt = debug_backtrace();
+	$caller = array_shift($bt);
         $query = mysqli_query($this->_connection, $sql); // OR DIE ("Can't get Data from DB , Query is : ( ".$sql.' ) on line no : '.$caller['line']);
+	*/
+        $query = mysqli_query($this->_connection, $sql); OR DIE ("Can't get Data from DB , Query is : ( ".$sql.' )';
         /*if ($this->_connection = 'wpdb') {
 	        $_return_type = ($type == 'object')?'OBJECT':'ARRAY_A';
 			$results = $wpdb->get_results($sql, $_return_type);
